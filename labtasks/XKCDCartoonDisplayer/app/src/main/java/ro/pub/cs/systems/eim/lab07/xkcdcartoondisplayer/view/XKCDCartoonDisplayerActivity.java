@@ -1,6 +1,6 @@
 package ro.pub.cs.systems.eim.lab07.xkcdcartoondisplayer.view;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -10,7 +10,7 @@ import ro.pub.cs.systems.eim.lab07.xkcdcartoondisplayer.R;
 import ro.pub.cs.systems.eim.lab07.xkcdcartoondisplayer.general.Constants;
 import ro.pub.cs.systems.eim.lab07.xkcdcartoondisplayer.network.XKCDCartoonDisplayerAsyncTask;
 
-public class XKCDCartoonDisplayerActivity extends AppCompatActivity {
+public class XKCDCartoonDisplayerActivity extends Activity {
 
     private TextView xkcdCartoonTitleTextView;
     private ImageView xkcdCartoonImageView;

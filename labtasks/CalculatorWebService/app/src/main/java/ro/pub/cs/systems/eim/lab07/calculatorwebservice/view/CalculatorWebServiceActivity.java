@@ -1,6 +1,6 @@
 package ro.pub.cs.systems.eim.lab07.calculatorwebservice.view;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,7 +11,7 @@ import android.widget.TextView;
 import ro.pub.cs.systems.eim.lab07.calculatorwebservice.R;
 import ro.pub.cs.systems.eim.lab07.calculatorwebservice.network.CalculatorWebServiceAsyncTask;
 
-public class CalculatorWebServiceActivity extends AppCompatActivity {
+public class CalculatorWebServiceActivity extends Activity {
 
     private EditText operator1EditText, operator2EditText;
     private TextView resultTextView;
